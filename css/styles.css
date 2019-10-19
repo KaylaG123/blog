@@ -1,0 +1,52 @@
+.page-wrapper {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227,242,253);
+}
+
+.header-posts {
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227,242,253);
+}
+
+h1 {
+    align-items: center;
+    justify-self: center;
+
+}
+
+.logo {
+    width: 30%;
+}
+
+.navbar-light {
+    background-color: #e3f2fd;
+}
+.content-wrapper {
+    display: grid;
+}
+
+.author-wrapper {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer-wrapper {
+    display: grid;
+    background-color: rgb(227,242,253);
+    align-items: right;
+    justify-items: right;
+}
